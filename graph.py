@@ -1,5 +1,5 @@
 
-# * Handles data processing and rendering of graphs
+# * Handles graph rendering
 
 import fileio
 import matplotlib.pyplot as plt
