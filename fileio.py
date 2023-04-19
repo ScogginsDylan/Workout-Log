@@ -1,9 +1,6 @@
 
 # * Module for handling file manipulation and data processing
 
-# ? may have to consider restructuring how data is passed between modules, try to reduce module nesting
-# TODO: convert data from CSV to JSON format at some point
-#  import json
 import pandas as pd
 import numpy as np
 
@@ -23,7 +20,3 @@ def process_file_CSV(fname):
 #     new_df = pd.DataFrame(nparray, columns=['Exercise','Weight'])
 #     new_df.to_csv(fname, sep='\t', encoding='utf-8', index=False)
 #     return
-
-# * For testing purposes only
-def print_data(nparray):
-    print(nparray)
